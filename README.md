@@ -3,3 +3,5 @@
 >
 > `Author:` Muhammad Tayyab Sheikh (CSTayyab)
 >
+
+## [View Demo](demo.html)
