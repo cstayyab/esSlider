@@ -1,0 +1,61 @@
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-container > .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+  transform: translateX(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centering content */
+}
+
+.slider-container > .slide:first-child {
+  transform: translateX(0);
+}
+
+.slider-container > .slider-navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-prev,
+.slider-next {
+  cursor: pointer;
+  font-size: 2rem;
+  color: grey;
+  border: none;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slider-dots button {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background: grey;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-dots .active {
+  background: blue;
+}
+
+/* Add other CSS code for responsiveness, styling, etc */

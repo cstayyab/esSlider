@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Demo</title>
+    <link rel="stylesheet" href="src/esslider.css">
+    <style>
+        #slider1 {
+            height: 900px;
+            width: 1024px;
+        }
+
+        #slider1 > .slide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Slider Demo</h1>
+
+    <div class="slider-container" id="slider1">
+        <div class="slide">
+            <img src="https://via.placeholder.com/1024x768" alt="placeholder image">
+            <blockquote>"The only way to do great work is to love what you do." - Steve Jobs</blockquote>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1024x768" alt="placeholder image">
+            <blockquote>"Success is not the key to happiness. Happiness is the key to success. If you love what you
+                are doing, you will be successful." - Albert Schweitzer</blockquote>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1024x768" alt="placeholder image">
+            <blockquote>"Believe you can and you're halfway there." - Theodore Roosevelt</blockquote>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1024x768" alt="placeholder image">
+            <blockquote>"Do not let what you cannot do interfere with what you can do." - John Wooden</blockquote>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1024x768" alt="placeholder image">
+            <blockquote>"Don't watch the clock; do what it does. Keep going." - Sam Levenson</blockquote>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1024x768" alt="placeholder image">
+            <blockquote>"The secret of getting ahead is getting started." - Mark Twain</blockquote>
+        </div>
+        <!-- Add as many slides as you want in the same way -->
+
+    </div>
+
+    <script src="src/esslider.js"></script>
+    <script>
+        // Initialize sliders
+        const slider1 = new Slider('#slider1', { autoplay: true, autoPlayInterval: 3000 });
+    </script>
+</body>
+
+</html>
