@@ -4,4 +4,4 @@
 > `Author:` Muhammad Tayyab Sheikh (CSTayyab)
 >
 
-## [View Demo](demo.html)
+## [View Demo](https://cstayyab.github.io/esSlider/demo.html)
